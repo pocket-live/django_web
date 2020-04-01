@@ -1,0 +1,20 @@
+[2020-03-30 12:48:20,951] (test_use_api.py/wrapper_function/29/ERROR):
+Expecting value: line 2 column 1 (char 1)
+[2020-03-30 12:49:37,118] (test_use_api.py/wrapper_function/29/ERROR):
+Expecting value: line 2 column 1 (char 1)
+[2020-03-30 12:50:06,204] (test_use_api.py/wrapper_function/29/ERROR):
+Expecting value: line 2 column 1 (char 1)
+[2020-03-30 12:50:42,250] (test_use_api.py/wrapper_function/29/ERROR):
+Expecting value: line 2 column 1 (char 1)
+[2020-03-30 12:53:37,885] (test_use_api.py/wrapper_function/49/ERROR):
+HTTPConnectionPool(host='192.168.0.4', port=8000): Max retries exceeded with url: /customer/add_data?user_id=pocket_test&iphone=18379215236&password=12345678 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x110b1afd0>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+[2020-03-30 12:55:33,086] (test_use_api.py/wrapper_function/49/ERROR):
+HTTPConnectionPool(host='192.168.0.4', port=8000): Max retries exceeded with url: /customer/add_data?user_id=pocket_test&iphone=18379215236&password=12345678 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1111a20b8>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+[2020-03-30 13:01:16,263] (test_use_api.py/wrapper_function/49/ERROR):
+HTTPConnectionPool(host='192.168.0.4', port=8000): Max retries exceeded with url: /customer/add_data?user_id=pocket_test&iphone=18379215236&password=12345678 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1042bdf98>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+[2020-03-30 13:09:12,449] (test_use_api.py/wrapper_function/30/ERROR):
+Expecting value: line 2 column 1 (char 1)
+[2020-03-30 13:10:11,538] (test_use_api.py/wrapper_function/49/ERROR):
+HTTPConnectionPool(host='localhost', port=8099): Max retries exceeded with url: /user_manage/insertUser (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ce430b8>: Failed to establish a new connection: [Errno 61] Connection refused'))
+[2020-03-30 17:38:34,423] (test_use_api.py/wrapper_function/30/ERROR):
+Expecting value: line 2 column 1 (char 1)
