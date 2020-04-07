@@ -31,7 +31,7 @@ DEBUG = False
 '''
 设置允许访问的ip地址服务
 '''
-ALLOWED_HOSTS = ['192.168.0.12','127.0.0.1','localhost']
+ALLOWED_HOSTS = ['192.168.0.12','127.0.0.1','localhost','129.211.25.203']
 
 # Application definition
 
@@ -99,15 +99,15 @@ ENGINE的可选值有：
 除了官方支持的数据库外，还有第三方提供的后端。（比如：IBM DB2）
 '''
 DATABASES = {
-    'default': {
-        # 'ENGINE': 'django.db.backends.sqlite3',
+    # 'default': {
+        # 'ENGINE': 'django.db.backends.sqlite3', # sqlite3版本需要大于3.8 可以利用sqlite3 --version检测版本号
         # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'), # 如果使用的是 SQLite， NAME 应该是此文件的绝对路径。默认值 os.path.join(BASE_DIR, 'db.sqlite3') 将会把数据库文件储存在项目的根目录
-        'ENGINE': 'django.db.backends.mysql',  # 引擎
-        'NAME': 'db_dj', # 数据库名称
-        'USER': 'root', # 用户名
-        'PASSWORD': '123456', # 密码
-        'HOST': '127.0.0.1' # ip地址
-    }
+        # 'ENGINE': 'django.db.backends.mysql',  # 引擎
+        # 'NAME': 'db_dj', # 数据库名称
+        # 'USER': 'root', # 用户名
+        # 'PASSWORD': '123456', # 密码
+        # 'HOST': '127.0.0.1' # ip地址
+    # }
 }
 
 # Password validation
